@@ -9,7 +9,7 @@
 body{
 	background: #f5f5f5;
 	color: #67727a;
-	font-family: 'Alegreya', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	margin: 0;
 }
 
@@ -61,3 +61,46 @@ header{
 	background: url(../img/RD.png) no-repeat center;
 }
 
+/*Navigation Bar*/
+
+nav{
+	float: right;
+	padding: 5px 20px 0 0;
+}
+
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(../img/nav.png) center;
+}
+
+a:hover #menu-icon{
+	border-radius: 4px 4px 0 0;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+nav ul li a{
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #c3d7df;
+}
+
+.current{
+	color: #c3d7df;
+}
