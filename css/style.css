@@ -41,3 +41,23 @@ img{
 	width: auto;
 	margin-bottom: -4px;
 }
+
+header{
+	background-color: #6991ac;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo{
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(../img/RD.png) no-repeat center;
+}
+
