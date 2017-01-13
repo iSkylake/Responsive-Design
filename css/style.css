@@ -117,3 +117,32 @@ nav ul li a:hover{
 	margin: 0 auto;
 }
 
+/*ONE-FOURTH*/
+
+.one-fourth{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#html{
+	background-color: #f1aa90; 
+}
+
+#css{
+	background-color: #beb9ad;
+}
+
+#seo{
+	background-color: #aadcd2;
+}
+
+#social{
+	background-color: #a2b2c1;
+}
+
+.one-fourth i{
+	color: #f0f0f0;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+}
